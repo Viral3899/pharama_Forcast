@@ -1,0 +1,20 @@
+# Configuration for Standalone Prophet Model
+
+data:
+  # Default columns for the dataset
+  date_column: date
+  target_column: sales_amount
+
+  # Forecast settings
+  forecast_horizon: 30   # days
+  test_size: 0.2         # fraction of data for evaluation
+
+models:
+  prophet:
+    # Seasonality configuration
+    daily_seasonality: false
+    weekly_seasonality: true
+    yearly_seasonality: true
+
+    # Additive or multiplicative
+    seasonality_mode: additive

@@ -1,0 +1,14 @@
+# Core runtime
+prophet==1.1.7
+pandas==2.3.2
+numpy==2.3.2
+matplotlib==3.10.5
+seaborn==0.13.2
+PyYAML==6.0.2
+joblib==1.5.1
+scikit-learn==1.5.2
+
+# Prophet backend and extras
+cmdstanpy==1.2.5
+holidays==0.79
+tqdm==4.67.1
